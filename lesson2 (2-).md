@@ -70,8 +70,6 @@
 > most data modeling design just strive to achieve third normal form
 >
 > 4-6 is really just more for academic and research purposes
->
-> 
 
 1. **How to reach First Normal Form (1NF):**
 
@@ -94,3 +92,21 @@
    **When to use 3NF:**
 
    - When you want to update data, we want to be able to do in just 1 place. We want to avoid updating the table in the Customers Detail table (in the example in the lecture slide).
+
+
+
+## Fact and Dimension Tables
+
+> work together to create an organized data model
+>
+> while fact and dimension are not created differently in the DDL, 
+>
+> they are conceptual and extremely important for organization
+
+- Fact tables : consists of the measurements, metrics of facts of a business process
+
+  ​						fact table can be aggregations of data,  but are not meant to be updated in place like a dimension.
+
+- Dimension : a structure that categorizes facts and measures in order to enable users to answer business questions.
+
+  ​					dimensions are people, products, place and time
