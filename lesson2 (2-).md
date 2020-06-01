@@ -110,3 +110,35 @@
 - Dimension : a structure that categorizes facts and measures in order to enable users to answer business questions.
 
   ​					dimensions are people, products, place and time
+
+
+
+## Star schema
+
+1. Benefits
+
+   - Denormalized
+
+   - Simplifies queries
+   - Fast aggregations
+
+2. Drawbacks
+   - issues that come with denormalization(data integrity, ...)
+   - Decrease query flexibility
+   - Many to many relationship -- simplified
+
+## 
+
+## Snowflake Schema
+
+> Logical arrangement of tables in a multidimensional database represented by centralized fact tables 
+>
+> which are connected to multiple dimensions.
+
+
+
+## Snowflake vs Star
+
+- Star schema is a special, simplified case of the snowflake schema.
+- Star schema does not allow for one to many relationships while the snowflake schema does
+- Snowflake schema is more normalized than Star. but only in 1NF or 2NF
