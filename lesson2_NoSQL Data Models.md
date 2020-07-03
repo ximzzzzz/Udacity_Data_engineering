@@ -43,3 +43,14 @@ Over time (if no new changes are made) each copy of the data will be the same, b
 - **Consistency**: Every read from the database gets the latest (and correct) piece of data or an error
 - **Availability**: Every request is received and a response is given -- without a guarantee that the data is the latest update
 - **Partition Tolerance**: The system continues to work regardless of losing network connectivity between nodes
+
+
+
+### WHERE clause
+
+- Data Modeling in Apache Cassandra is query focused, and that focus needs to be on the WHERE clause
+- Failure to include a WHERE clause will result in an error
+
+### Additional Resource
+
+AVOID using "ALLOW FILTERING": Here is a reference [in DataStax](https://www.datastax.com/dev/blog/allow-filtering-explained-2) that explains ALLOW FILTERING and why you should not use it.
