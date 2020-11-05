@@ -30,3 +30,12 @@ Python is not a functional programming language.  Then how is it possible that S
 ​	in Spark, maps take data as input and then transform that data with whatever function you put in the map. They are 		like directions for the data telling how each input should get to the output. The first code cell creates a SparkContext 		object. With the SparkContext, you can input a dataset and parallelize the 
 
 ​	data across a cluster (since you are currently using Spark in local mode on a single machine, technically the dataset 	isn't distributed yet).
+
+
+
+## 5. imperative(Spark DataFrames & Python) vs Declarative(SQL) programming
+
+- loose definition(difference) 
+  - imperative focus on 'HOW' -> get in to the car and go to bakery two miles away from here ....
+  - Declarative focus on 'What' -> let's get cakes for my sister's birthday
+- in most cases, Declarative systems are an abstraction layer of an imperative system that takes care of figuring out the necessary steps to achieve the result
