@@ -32,3 +32,17 @@ If you want to learn more, start [here](https://kafka.apache.org/intro).
 If you want to learn more, start [here](https://docs.aws.amazon.com/redshift/latest/mgmt/welcome.html).
 
 So in other words, S3 is an example of the final data store where data might be loaded (e.g. ETL). While Redshift is an example of a data warehouse product, provided specifically by Amazon.
+
+
+
+#### Data Validation
+
+Data Validation is the process of ensuring that data is present, correct & meaningful. Ensuring the quality of your data through automated validation checks is a critical step in building data pipelines at any organization.
+
+
+
+#### Definitions
+
+- **Directed Acyclic Graphs (DAGs):** DAGs are a special subset of graphs in which the edges between nodes have a specific direction, and no cycles exist. When we say “no cycles exist” what we mean is the nodes cant create a path back to themselves.
+- **Nodes:** A step in the data pipeline process.
+- **Edges:** The dependencies or relationships other between nodes.
